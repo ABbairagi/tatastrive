@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/take"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="78dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Enter no:" />
+
+    <Button
+        android:id="@+id/by3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="191dp"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-242dp"
+        android:layout_marginBottom="369dp"
+        android:layout_toEndOf="@+id/by3"
+        android:text="Divide by 3:="
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-231dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="328dp"
+        android:layout_toStartOf="@+id/by5"
+        android:text="Divide by 5:="
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-231dp"
+        android:layout_marginBottom="280dp"
+        android:textStyle="bold"
+        android:layout_toStartOf="@+id/by5"
+        android:text="Divide by 3 and 5:="
+        tools:ignore="UnknownId" />
+
+</RelativeLayout>
